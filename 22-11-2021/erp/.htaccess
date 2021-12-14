@@ -1,0 +1,93 @@
+# BEGIN WordPress
+
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+# END WordPress
+
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_execution_time 180
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 1024M
+   php_value post_max_size 1024M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/tmp"
+   php_value upload_max_filesize 512M
+   php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_execution_time 180
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 1024M
+   php_value post_max_size 1024M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/tmp"
+   php_value upload_max_filesize 512M
+   php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 198.98.183.134
+deny from 13.92.92.153
+deny from 104.215.77.145
+deny from 37.37.49.123
+deny from 93.100.179.9
+deny from 40.75.9.135
+deny from 54.183.90.107
+deny from 202.65.122.82
+deny from 13.68.234.245
+deny from 40.84.142.226
+deny from 18.222.196.161
+deny from 40.84.152.56
+deny from 185.81.157.145
+deny from 45.77.53.14
+deny from 95.179.164.16
+deny from 20.185.44.59
+deny from 40.88.143.49
+deny from 185.153.197.73
+deny from 40.76.212.88
+deny from 194.9.179.159
+deny from 35.174.213.92
+deny from 178.137.130.25
+deny from 185.174.100.99
+deny from 146.112.48.45
+deny from 45.141.156.26
+deny from 212.72.142.4
+deny from 185.153.199.60
+deny from 52.147.199.15
+deny from 36.90.13.210
+deny from 37.120.147.169
+deny from 185.153.197.78
+deny from 154.57.3.36
+deny from 188.226.131.214
+deny from 185.153.196.241
+deny from 185.153.197.104
+deny from 185.153.199.172
+deny from 185.153.197.54
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

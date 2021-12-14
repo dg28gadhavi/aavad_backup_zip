@@ -1,0 +1,358 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class Attendance_cal extends CI_Controller {
+	 
+	public function __construct()
+	{
+		parent::__construct();
+		$loggedin = $this->is_loggedin(); 
+		if($loggedin == false)
+		{
+			redirect(base_url().'login');
+		}
+		$this->load->model('Attendance_cal_model');
+		//$this->load->library('encrypt');
+		$this->load->library('form_validation');
+	}
+	 
+	public function index()
+	{
+		//echo "<pre>"; print_r($this->input->post());die;
+		if($this->input->post(NULL,TRUE) && $this->input->post('attend_pa_id') && $this->input->get() && $this->input->get('attend_date_name'))
+		{
+			//echo "<pre>"; print_r($this->input->post());die;
+			$postdata = $this->input->post(NULL,FALSE);
+			$postdata = $this->security->xss_clean($postdata);
+			$this->Attendance_cal_model->sal_calculation($postdata);
+			redirect(base_url("Attendance_cal?attend_date_name=".$this->input->get('attend_date_name')));
+		}
+		else{
+			if($this->input->get(NULL,TRUE) && $this->input->get('attend_date_name') && $this->input->get('attend_date_name') != "")
+			{
+				//echo "<pre>"; print_r($this->input->get());die;
+				$value = array();
+				$value = $this->input->get(NULL,FALSE);
+				$value = $this->security->xss_clean($value);				
+				//$value['attend_date_name'] = $this->input->get('attend_date_name');
+
+				//$idenc = $this->encrypt_decrypt('encrypt',$value['attend_date_name']);
+				$month =date("d-m-Y", strtotime($value['attend_date_name']));
+				$lid = $this->Attendance_cal_model->add($value, $month);
+				//$this->data['Sal_cals'] = $this->Attendance_cal_model->get_Attendance_calculation($month);
+
+				if(isset($value['attend_date_name']) && $value['attend_date_name'] != '')
+				{
+					$this->data['action'] = "Attendance_cal?attend_date_name=".$value['attend_date_name']."";
+					$this->data['action_salcal'] = "Attendance_cal?attend_date_name=".$value['attend_date_name']."";
+					$this->data['Sal_cals'] = $this->Attendance_cal_model->get_Attendance_calculation($month);
+					$this->data['main_content'] = 'Attendance_cal_form_view';
+					$this->load->view('includes/template',$this->data);
+					//echo "<pre>"; print_r($this->data['Sal_cals']);die;
+				}
+
+				if($lid)
+					{	
+						$this->session->set_flashdata('success', 'Attendance_cal added successfully.');
+						//redirect(base_url('Attendance_cal/add?attend_date_name='.$month), 'refresh');
+					}else{
+					
+						$this->session->set_flashdata('error', 'Attendance_cal not added successfully!!');
+					}
+				 	//redirect(base_url('Attendance_cal/add?attend_date_name='.$month), 'refresh');
+
+				
+			}
+			else{
+
+				$value = array();
+				$value = $this->input->get(NULL,FALSE);
+				$value = $this->security->xss_clean($value);				
+				//$value['attend_date_name'] = $this->input->get('attend_date_name');
+
+				//$idenc = $this->encrypt_decrypt('encrypt',$value['attend_date_name']);
+				$month =isset($value['attend_date_name']) ? $value['attend_date_name'] : '';
+
+				$this->data['action'] ="Attendance_cal";
+				$this->data['action_salcal'] = "Attendance_cal?attend_date_name=".$month."";
+				//$this->data['Sal_cals'] = $this->Attendance_cal_model->get_Attendance_calculation();
+				$this->data['main_content'] = 'Attendance_cal_form_view';			
+				$this->load->view('includes/template',$this->data);
+
+				$right_status = $this->check_rights('view');
+				if($right_status == false)
+				{
+					$this->session->set_flashdata('rights_error', "You Don't have rights to access Attendance_cal VIew functionality");
+					redirect(base_url());
+				}
+			}			
+		}
+		
+	}
+	public function confirm_calculation()
+	{
+		$this->Attendance_cal_model->confirm_calculation();
+		redirect(base_url("Attendance_cal?attend_date_name=".$this->input->get('attend_date_name')));
+	}
+	public function salar_paid()
+	{
+		$this->Attendance_cal_model->salar_paid();
+		redirect(base_url("Attendance_cal/View"));
+	}
+	public function email()
+	{
+		//die;
+		$lists = $this->Attendance_cal_model->get_maildata();
+		$uid = $this->encrypt_decrypt('decrypt',$this->session->userdata['miconlogin']['userid']);
+				;
+		$mailerdata = $this->Attendance_cal_model->get_mailer_detail($uid);
+		//echo '<pre>';print_r($lists);die;
+		$value = array();
+		$value = $this->input->post(NULL,FALSE);
+		$value = $this->security->xss_clean($value);
+		$path=str_replace('index.php','',$_SERVER['SCRIPT_FILENAME']);
+		$config = array();
+		$config['protocol']    = 'smtp';
+		$config['smtp_host']    = 'ssl://smtp.gmail.com';
+		$config['smtp_port']    = '465';
+		$config['smtp_timeout'] = '7';
+		$config['smtp_user']    = $mailerdata['au_gmail_email'];
+		$config['smtp_pass']    = $mailerdata['au_gmail_password'];
+		$config['charset']    = 'utf-8';
+		$config['newline']    = "\r\n";
+		$config['mailtype'] = 'html'; // or html
+		$config['validation'] = TRUE; // bool whether to validate email or not
+		$message = '';
+		$this->load->library('email');
+		$this->email->initialize($config);
+		$this->email->set_newline("\r\n");
+		$this->email->from($mailerdata['au_gmail_email']); //$mailerdata['au_gmail_email']
+		$this->email->to("parag@miconindia.com,hr@miconindia.com");
+		$message=$this->load->view('Salary_email_form_view',$lists,true);
+		$this->email->subject("Salary Detail");
+		$this->email->message($message);
+      	if($this->email->send())
+     	{
+		      echo 'Email sent.';
+		      $this->session->set_flashdata('success', 'Mail sent successfully.');
+			  redirect(base_url('Attendance_cal'));
+	     }
+	     else
+	    {
+	     show_error($this->email->print_debugger());
+	     $this->session->set_flashdata('error', 'Mail not sent successfully!!');
+	     redirect(base_url('Attendance_cal'));
+	    }
+	}
+	
+	
+	public function validation() 
+	{
+		if($this->input->post(NULL,TRUE))
+		{
+			$this->load->library('form_validation');
+			if($this->uri->segment(2) == 'add'){
+				$this->form_validation->set_rules('attend_date_name', 'attend_date_name', 'trim|required');  
+			}else if($this->uri->segment(2) == 'edit'){
+				$enid = $this->uri->segment(3) ? $this->uri->segment(3) : '';
+				$idencr = $this->uri->segment(3) ? $this->encrypt_decrypt('decrypt', $enid) : '';
+				$this->form_validation->set_rules('attend_date_name', 'Attendance_cal name', 'trim|required');  
+			}
+			
+		   if($this->form_validation->run() == FALSE)
+		   {
+			 return FALSE;
+		   }
+		   else
+		   {
+			 return TRUE;
+		   }	
+		}
+	}
+
+	public function View()
+	{
+		$type_id = $this->encrypt_decrypt('decrypt',$this->session->userdata['miconlogin']['typeid']);
+		$dep_id =  $this->encrypt_decrypt('decrypt',$this->session->userdata['miconlogin']['dep_id']);
+		if($type_id == 3)
+		{
+			$this->data['Sal_cals'] = $this->Attendance_cal_model->get_Salary_data_for_admin();
+			$this->data['main_content'] = 'Attendance_cal_admin_report_view';
+			$this->load->view('includes/template',$this->data);
+		}
+		else{
+			$this->data['Sal_cals'] = $this->Attendance_cal_model->get_Salary_data();
+			$this->data['main_content'] = 'Attendance_cal_report_view';
+			$this->load->view('includes/template',$this->data);
+		}		
+	}
+	public function Attendance_report()
+	{
+		$right_status = $this->check_rights('view');
+		if($right_status == false)
+		{
+			$this->session->set_flashdata('rights_error', "You Don't have rights to access VIew functionality");
+			redirect(base_url());
+		}
+		//$this->data['Sal_cals'] = $this->Attendance_cal_model->get_Salary_data_for_admin();
+		$this->data['admins'] = $this->Attendance_cal_model->get_admin();
+		$this->data['statics'] = $this->Attendance_cal_model->get_statics();
+		$this->data['main_content'] = 'Attendance_cal_grid_view';
+		$this->load->view('includes/template',$this->data);	
+	}
+	public function ajax()
+	{
+		$user = $this->Attendance_cal_model->get_Salary_data();
+		$iTotalRecords = count($user);
+		$iDisplayLength = intval($_REQUEST['length']);
+		$iDisplayLength = $iDisplayLength < 0 ? $iTotalRecords : $iDisplayLength; 
+		$iDisplayStart = intval($_REQUEST['start']);
+		$sEcho = intval($_REQUEST['draw']);
+
+		$records = array();
+		$records["data"] = array(); 
+
+		$end = $iDisplayStart + $iDisplayLength;
+		$end = $end > $iTotalRecords ? $iTotalRecords : $end;
+
+		$status_list = array(
+			array("success" => "Pending"),
+			array("info" => "Closed"),
+			array("danger" => "On Hold"),
+			array("warning" => "Fraud")
+		);
+		
+		for($i = $iDisplayStart; $i < $end; $i++) {
+		$status = $status_list[rand(0, 2)];
+		$id = ($i + 1);
+		//$idenc = $this->encrypt_decrypt('encrypt',$user[$i]);
+		//$crud->columns('master_item_code','master_item_name','master_item_description','master_item_make','master_item_rating','master_item_part_no','master_item_price','master_item_stock','master_item_created_date','master_item_updated_date');
+		$right_status = $this->check_rights('edit');
+		if($right_status == false)
+		{
+			$editstr = '';
+		}else{
+			$editstr = '';
+		}
+		if($user[$i]['attend_pa_id']=='1') {
+            $att = 'Present';
+        }elseif ($user[$i]['attend_pa_id']=='2') {
+             $att = 'Absent';
+        }
+        else{
+        	$att = ' ';
+        }
+		$right_status = $this->check_rights('delete');
+		if($right_status == false)
+		{
+			$deletestr = '';
+		}else{
+			$deletestr = '';
+		}
+		$records["data"][] = array(
+			   ''.$user[$i]['attend_date_name'],
+			   ''.$user[$i]['au_fname'],
+			  ''.$att,
+			  ''.$user[$i]['attend_intime'],
+			  ''.$user[$i]['attend_outtime'],
+			  ''.$editstr.''.$deletestr.'',
+		);
+		}
+
+		if (isset($_REQUEST["customActionType"]) && $_REQUEST["customActionType"] == "group_action") {
+			$records["customActionStatus"] = "OK"; // pass custom message(useful for getting status of group actions)
+			$records["customActionMessage"] = "Group action successfully has been completed. Well done!"; // pass custom message(useful for getting status of group actions)
+		}
+
+		$records["draw"] = $sEcho;
+		$records["recordsTotal"] = $iTotalRecords;
+		$records["recordsFiltered"] = $iTotalRecords;
+
+		echo json_encode($records);
+	}
+	
+	public function get_form()
+	{
+		//$this->Attendance_cal_model->add();	
+		$this->data['action'] = "Attendance_cal/add".$this->uri->segment(3);
+		$this->data['main_content'] = 'Attendance_cal_form_view';
+		$this->data['sal_month'] = $this->Attendance_cal_model->get_Salary_month();		
+		$this->load->view('includes/template',$this->data);
+	}
+	
+	public function is_logged()
+	{
+		return (bool)$this->session->userdata('authorized');
+	}
+
+	
+	
+
+	function encrypt_decrypt($action, $string)
+	{
+	    $output = false;
+
+	    $encrypt_method = "AES-256-CBC";
+	    $secret_key = 'This is my secret key';
+	    $secret_iv = 'This is my secret iv';
+
+	    // hash
+	    $key = hash('sha256', $secret_key);
+	    
+	    // iv - encrypt method AES-256-CBC expects 16 bytes - else you will get a warning
+	    $iv = substr(hash('sha256', $secret_iv), 0, 16);
+
+	    if( $action == 'encrypt' ) {
+	        $output = openssl_encrypt($string, $encrypt_method, $key, 0, $iv);
+	        $output = base64_encode($output);
+	    }
+	    else if( $action == 'decrypt' ){
+	        $output = openssl_decrypt(base64_decode($string), $encrypt_method, $key, 0, $iv);
+	    }
+
+	    return $output;
+	}
+	
+	
+	
+	public function check_rights($type)
+	{
+		$status = false;
+		if(isset($this->session->userdata['miconlogin']['rightsid']) && ($this->session->userdata['miconlogin']['rightsid'] != '') && isset($this->session->userdata['miconlogin']['typeid']) && ($this->session->userdata['miconlogin']['typeid'] != ''))
+		{
+			$rightsid = $this->encrypt_decrypt('decrypt',$this->session->userdata['miconlogin']['rightsid']);
+			$typeid = $this->encrypt_decrypt('decrypt',$this->session->userdata['miconlogin']['typeid']);
+			if($typeid != 3)
+			{
+				$this->load->model('global_model');
+				$finalrights = $this->global_model->get_rights($rightsid,$moduleid = 39,$type);
+				if(isset($finalrights) && ($finalrights == 1))
+				{
+					$status = true;
+				}else{
+					$status = false;
+				}
+			}else{
+				$status = true;
+			}
+		}
+		return $status;
+	}
+
+	function is_loggedin()
+	{
+		if(isset($this->session->userdata['miconlogin']))
+		{
+			if(isset($this->session->userdata['miconlogin']) && isset($this->session->userdata['miconlogin']['typeid']) && isset($this->session->userdata['miconlogin']['rightsid']) && isset($this->session->userdata['miconlogin']['status']) && ($this->session->userdata['miconlogin']['status'] == 1))
+			{
+				$loginstatus = true;
+			}else{
+				$loginstatus = false;
+			}
+		}else{
+			$loginstatus = false;
+		}
+		return $loginstatus; 
+	}
+	
+	
+}?>
