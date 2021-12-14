@@ -1,0 +1,110 @@
+.header-cms-service .service-icon{    background-image:url("images/megnor/support.png");}
+.header-cms-service .contact-icon {    background-image:url("images/megnor/contact.png");}
+.mega-menu ul li .sub li.mega-hdr a.mega-hdr-a {
+    color: #1c1c1c;
+}
+.read-more a::after,
+.links .icon, .gallery-zoom .icon, .gallery-redirect .icon, .blog-posts-content .block_hover .icon,
+.sidebar-category,
+.sk-folding-cube .sk-cube::before,
+.pricing_wrapper:hover .pricing_heading, .pricing_wrapper .selected .pricing_heading, .pricing_wrapper:hover .pricing_top, .pricing_wrapper .selected .pricing_top, .pricing_wrapper:hover .pricing_button a#pricing-btn, .pricing_wrapper .selected .pricing_button a#pricing-btn,
+.team-posts-content.posts-content .container .container-inner:hover .staff-content
+{background-color: #2457aa;}
+
+.pricing_wrapper:hover .pricing_wrapper_inner, .pricing_wrapper:hover .pricing_button a#pricing-btn, .pricing_wrapper .selected .pricing_button a#pricing-btn{border-color:#1c1c1c;}
+
+.box-category-heading::after,
+.header-bottom-right::after {
+	    background-image: url("images/megnor/menu_border.png");
+}
+
+.sidebar-category .dc-mega-icon::before{ background-color:#262626;}
+
+.entry-meta a, .site-content .entry-meta span .fa,.read-more a, .blog .entry-meta .entry-date, .entry-meta .comments-link,
+.blog .entry-meta .entry-date, .entry-meta .comments-link a, .post-info .read-more a, .single .entry-meta .entry-date, .site-content .entry-meta a, .comments-link .fa,
+.blog-posts-content .post-title a, .single-portfolio .portfolio-title a,
+#home_featured_carousel .woocommerce-Price-amount.amount,
+.price_label, .woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price,
+.custom-testimonial .testimonial-title a
+{ color:#1c1c1c;}
+
+
+.sidebar-category,
+.woo_categories_list .product-categories > li, .header-category ul > li,
+.footer-bottom,
+.fourth-widget::before,
+.footer-menu-links ul li::after{ border-color: #474747;}
+
+.category-banner-image.no-image{ background-color:#2457aa;}
+.no-image.cms-banner-item{background-color: #1c1c1c;}
+
+
+.one-category .tab-title::before{ background:#000;}
+.one-category .cat-link{background-color: #fff;}
+
+
+	.service-1 .service-content .icon-image{
+        background-image: url("images/megnor/delivery.svg");
+    }
+    .service-2 .service-content .icon-image{
+        background-image: url("images/megnor/money-bag.svg");
+    }
+    .service-3 .service-content .icon-image{
+        background-image: url("images/megnor/best_online.svg");
+    }
+    .service-4 .service-content .icon-image{ 
+        background-image: url("images/megnor/piggy.svg");
+    }
+.vc_btn3-style-custom.vc_general.vc_btn3:focus, .vc_btn3-style-custom.vc_general.vc_btn3:hover {
+    background-color: #1c1c1c !important;}
+
+
+.paging-navigation a:hover, .paging-navigation .page-numbers.current, .woocommerce-pagination span.current, .woocommerce-pagination a:hover{border-color:#1c1c1c;background-color: #1c1c1c;}
+
+.primary-sidebar .widget .widget-title::before {
+    /*border-bottom: 2px solid #2457aa;*/
+    bottom: 0;
+    content: "";
+    left: 20px;
+    margin: 0 auto;
+    position: absolute;
+    right: auto;
+    width: 50px;
+}
+.sub-banner4 .static-wrapper.cms-left-text {
+	left: 5%;
+	text-align: left;
+}
+.header-cms-service .service-block:hover .service-icon {
+    background-image: url("images/megnor/support_hover.png");
+}
+.header-cms-service .contact-block:hover .contact-icon {
+    background-image: url("images/megnor/contact_hover.png");
+}
+.box-category::before {
+    background: url("images/megnor/menu.png") no-repeat center center;
+	background-color: #2457aa;
+}
+#home_featured_carousel .product_title a {
+    color: #1c1c1c;
+}
+.blog-sec .normal-title {
+    margin: 0px 0px 15px !important;
+    padding: 0px 0px 15px !important;
+}
+.entry-main-content .entry-meta .entry-date, .entry-meta .comments-link a, .post-info .read-more a, .single .entry-meta .entry-date, .site-content .entry-meta a, .meta-inner .fa{
+	color: #1c1c1c;
+}
+.blog .read-more a::after, .related_posts_outer .read-more a::after {
+    background: #1c1c1c;
+}
+#yith-quick-view-close:hover {
+    color: #2457aa;
+}
+.product-category:hover h2, .product-category:hover mark {
+    color: #2457aa;
+}
+.cat-img-block {
+    background-color: #fff;
+    border: 4px solid #f7f7f7;
+}

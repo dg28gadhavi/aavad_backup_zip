@@ -1,0 +1,83 @@
+
+.vc_element-icon {
+    background-size: 100% auto;
+}
+/* Accordion */
+.tmpmela-item-accordion .tmpmela-item-icon,
+.vc_element-icon.tmpmela-vc-icon-accordion { background-image:url(../images/accordion.png);}
+
+/* Brand */
+.vc_element-icon.tmpmela-vc-icon-brand { background-image:url(../images/brand.png);}
+.vc_element-icon.tmpmela-vc-icon-brand-list { background-image:url(../images/brand-list.png);}
+
+/* CMS banner */
+.vc_element-icon.tmpmela-vc-icon-cms { background-image:url(../images/cms.png);}
+
+
+/* woo products */
+.vc_element-icon.tmpmela-vc-icon-woo_pro { background-image:url(../images/woo_pro.png);}
+
+/* FAQ */
+.vc_element-icon.tmpmela-vc-icon-faq { background-image:url(../images/faq.png);}
+
+/* services */
+.vc_element-icon.tmpmela-vc-icon-services { background-image:url(../images/services.png);}
+
+/* Button */
+.vc_element-icon.tmpmela-vc-icon-button { background-image:url(../images/button.png);}
+
+/* Static Text */
+.vc_element-icon.tmpmela-vc-icon-static-text { background-image:url(../images/static-text.png);}
+
+/* feature Content */
+.vc_element-icon.tmpmela-vc-icon-feature_box { background-image:url(../images/content.png);}
+
+/* Toggle */
+.vc_element-icon.tmpmela-vc-icon-toggle { background-image:url(../images/toggle.png);}
+
+/* multiple-link */
+.vc_element-icon.tmpmela-vc-icon-multiple-link { background-image:url(../images/multiple-link.png);}
+
+/* Contact box */
+.tmpmela-item-contact_box .tmpmela-item-icon,
+.vc_element-icon.tmpmela-vc-icon-contact_box { background-image:url(../images/contact_box.png);}
+
+/* Counter */
+.tmpmela-item-counter .tmpmela-item-icon,
+.vc_element-icon.tmpmela-vc-icon-counter { background-image:url(../images/quick_fact.png);}
+
+/* Fancy heading */
+.tmpmela-item-fancy_heading .tmpmela-item-icon,
+.vc_element-icon.tmpmela-vc-icon-fancy_heading { background-image:url(../images/fancy_heading.png);}
+
+/* Our team */
+.vc_element-icon.tmpmela-vc-icon-team { background-image:url(../images/team.png);}
+
+/* Portfolio */
+.vc_element-icon.tmpmela-vc-icon-portfolio { background-image:url(../images/portfolio.png);}
+
+/* Portfolio slider */
+.vc_element-icon.tmpmela-vc-icon-portfolio_slider { background-image:url(../images/portfolio_slider.png);}
+
+/* Pricing item */
+.vc_element-icon.tmpmela-vc-icon-pricing_item { background-image:url(../images/pricing_item.png);}
+
+/* Tabs */
+.tmpmela-item-tabs .tmpmela-item-icon,
+.vc_element-icon.tmpmela-vc-icon-tabs  { background-image:url(../images/tabs.png);}
+
+/* Testimonials */
+.tmpmela-item-testimonials .tmpmela-item-icon,
+.vc_element-icon.tmpmela-vc-icon-testimonials { background-image:url(../images/testimonials.png);}
+
+/* Blog slider */
+.tmpmela-item-blog_slider .tmpmela-item-icon,
+.vc_element-icon.tmpmela-vc-icon-blog_slider { background-image:url(../images/blog_slider.png);}
+
+/* List */
+.tmpmela-item-list .tmpmela-item-icon,
+.vc_element-icon.tmpmela-vc-icon-list { background-image:url(../images/list.png);}
+
+/* Portfolio grid */
+.tmpmela-item-portfolio_grid .tmpmela-item-icon,
+.vc_element-icon.tmpmela-vc-icon-portfolio_grid { background-image:url(../images/portfolio_grid.png);}

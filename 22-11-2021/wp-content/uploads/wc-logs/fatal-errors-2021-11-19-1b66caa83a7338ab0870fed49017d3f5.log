@@ -1,0 +1,96 @@
+2021-11-19T07:51:19+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:51:21+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:51:25+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:51:31+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:51:33+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:51:38+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:51:41+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:51:47+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:51:49+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:51:54+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:51:57+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:52:02+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:52:05+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:52:10+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:52:13+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:52:34+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:52:37+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:52:41+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:52:45+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:52:45+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:52:50+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:52:53+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:52:58+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:02+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:07+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:09+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:13+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:17+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:23+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:24+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:26+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:40+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:42+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:46+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:50+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:55+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:55+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:56+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:58+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:53:59+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:54:04+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:54:06+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:54:09+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:54:11+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:54:20+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:54:20+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:54:22+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+
+2021-11-19T07:54:34+00:00 CRITICAL Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home1/aavadins/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 673
+

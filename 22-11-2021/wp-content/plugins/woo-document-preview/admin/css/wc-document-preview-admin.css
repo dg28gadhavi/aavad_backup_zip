@@ -1,0 +1,18 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.wcdp-required-span {
+	font-size: 10px;
+	color: red;
+}
+.preview_files p.wcdp-del-msg{
+	color: red;
+	display: none;
+}
+.wcdp-document-file td.file_url #wcdp_file_urls.focused {
+   border: 1px solid red;
+}
+.wcdp-document-file .file_url_choose #wcdp_preview_attachment.focused {
+   border: 1px solid red;
+}

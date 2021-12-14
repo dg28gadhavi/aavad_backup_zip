@@ -1,0 +1,36 @@
+[14-Apr-2021 16:14:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/aavadins/public_html/wp-content/themes/firezy/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-content/themes/firezy/index.php on line 16
+[20-Apr-2021 12:01:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/aavadins/public_html/wp-content/themes/firezy/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-content/themes/firezy/index.php on line 16
+[22-Apr-2021 05:34:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/aavadins/public_html/wp-content/themes/firezy/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-content/themes/firezy/index.php on line 16
+[26-Apr-2021 08:56:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/aavadins/public_html/wp-content/themes/firezy/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-content/themes/firezy/index.php on line 16
+[03-May-2021 19:32:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/aavadins/public_html/wp-content/themes/firezy/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-content/themes/firezy/index.php on line 16
+[12-May-2021 23:57:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/aavadins/public_html/wp-content/themes/firezy/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-content/themes/firezy/index.php on line 16
+[17-May-2021 15:03:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/aavadins/public_html/wp-content/themes/firezy/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-content/themes/firezy/index.php on line 16
+[17-May-2021 23:09:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/aavadins/public_html/wp-content/themes/firezy/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-content/themes/firezy/index.php on line 16
+[22-May-2021 09:53:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/aavadins/public_html/wp-content/themes/firezy/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-content/themes/firezy/index.php on line 16

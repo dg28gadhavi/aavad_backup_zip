@@ -1,0 +1,110 @@
+[29-Jul-2021 14:41:27 UTC] PHP Fatal error:  Class 'Walker' not found in /home1/aavadins/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[30-Jul-2021 19:38:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/aavadins/public_html/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/locale.php on line 11
+[31-Aug-2021 09:39:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[01-Sep-2021 07:32:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[02-Sep-2021 08:37:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[02-Sep-2021 15:22:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[03-Sep-2021 19:46:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[04-Sep-2021 12:16:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[05-Sep-2021 03:30:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[06-Sep-2021 14:52:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[07-Sep-2021 11:43:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[08-Sep-2021 14:17:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[09-Sep-2021 01:37:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[11-Sep-2021 10:51:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[11-Sep-2021 11:02:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[11-Sep-2021 16:42:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[13-Sep-2021 00:41:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[13-Sep-2021 13:09:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[14-Sep-2021 12:08:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[14-Sep-2021 21:51:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[16-Sep-2021 16:38:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[16-Sep-2021 19:56:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[16-Sep-2021 21:02:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[19-Sep-2021 20:57:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[20-Sep-2021 22:12:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[21-Sep-2021 09:22:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[21-Sep-2021 17:03:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/aavadins/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/template-canvas.php on line 12
+[29-Oct-2021 02:47:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/aavadins/public_html/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/aavadins/public_html/wp-includes/locale.php on line 11
+[29-Oct-2021 05:06:07 UTC] PHP Fatal error:  Class 'Walker' not found in /home1/aavadins/public_html/wp-includes/class-walker-nav-menu.php on line 17

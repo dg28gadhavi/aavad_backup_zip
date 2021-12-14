@@ -1,0 +1,1461 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-26 11:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Last-Translator: \n"
+"Language: "
+
+#: 404.php:10
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: author-bio.php:26
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: author-bio.php:29
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: author.php:22
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: category.php:15
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:23
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:30 comments.php:54
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:33 comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:36 comments.php:60
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:23 content-audio.php:23 content-gallery.php:23
+#: content-image.php:23 content-link.php:23 content-quote.php:23
+#: content-video.php:23 content.php:25
+msgid "Click to view Full Image"
+msgstr ""
+
+#: content-aside.php:23 content-audio.php:23 content-gallery.php:23
+#: content-image.php:23 content-link.php:23 content-quote.php:23
+#: content-video.php:23 content.php:25
+msgid "Click to view Read More"
+msgstr ""
+
+#: content-aside.php:101 content-audio.php:101 content-gallery.php:101
+#: content-image.php:101 content-link.php:101 content-page.php:25
+#: content-quote.php:101 content-video.php:101 content.php:103 image.php:29
+#: single-portfolio.php:42 single-portfolio.php:50
+#: templatemela/megnor-functions.php:660
+msgid "Edit"
+msgstr ""
+
+#: content-aside.php:115 content-audio.php:115 content-gallery.php:115
+#: content-image.php:115 content-link.php:115 content-quote.php:115
+#: content-video.php:115 content.php:117 inc/widgets.php:102
+#: inc/widgets.php:141
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-aside.php:116 content-audio.php:116 content-gallery.php:116
+#: content-image.php:116 content-link.php:116 content-page.php:20
+#: content-quote.php:116 content-video.php:116 content.php:118 image.php:46
+#: single-portfolio.php:46
+msgid "Pages:"
+msgstr ""
+
+#: content-featured-post.php:24
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: footer.php:43 functions.php:49
+msgid "TM Footer Navigation"
+msgstr ""
+
+#: footer.php:55
+msgid "Copyright"
+msgstr ""
+
+#: functions.php:47
+msgid "TM Header Navigation"
+msgstr ""
+
+#: functions.php:48 header.php:118
+msgid "TM Header Top Links"
+msgstr ""
+
+#: functions.php:94
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:96
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: functions.php:113
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:118
+msgctxt "Bitter font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:255
+#, php-format
+msgid "%d Article"
+msgid_plural "%d Articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:344
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: header.php:25
+msgid "Siteheader"
+msgstr ""
+
+#: header.php:44 header.php:167
+msgid "Menu"
+msgstr ""
+
+#: header.php:45 header.php:168
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:101 header.php:102 templatemela/woocommerce-functions.php:15
+msgid "View your shopping cart"
+msgstr ""
+
+#: header.php:102 templatemela/woocommerce-functions.php:15
+#, php-format
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: header.php:139
+msgid "Logout"
+msgstr ""
+
+#: header.php:142
+msgid "User Login"
+msgstr ""
+
+#: header.php:216 header.php:220 header.php:228
+msgid "Blog"
+msgstr ""
+
+#: header.php:218 header.php:230
+#, php-format
+msgid "Search Results for: \"%s\""
+msgstr ""
+
+#: header.php:222 header.php:232
+msgid "Single Blog"
+msgstr ""
+
+#: image.php:57
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:58
+msgid "Next Image"
+msgstr ""
+
+#: tag.php:16
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: taxonomy-post_format.php:30 inc/widgets.php:48
+msgid "Asides"
+msgstr ""
+
+#: taxonomy-post_format.php:32 inc/widgets.php:49
+msgid "Images"
+msgstr ""
+
+#: taxonomy-post_format.php:34 inc/widgets.php:50
+msgid "Videos"
+msgstr ""
+
+#: taxonomy-post_format.php:36 inc/widgets.php:51
+msgid "Audio"
+msgstr ""
+
+#: taxonomy-post_format.php:38 inc/widgets.php:52
+msgid "Quotes"
+msgstr ""
+
+#: taxonomy-post_format.php:40 inc/widgets.php:53
+msgid "Links"
+msgstr ""
+
+#: taxonomy-post_format.php:42 inc/widgets.php:54
+msgid "Galleries"
+msgstr ""
+
+#: taxonomy-post_format.php:44
+msgid "Archives"
+msgstr ""
+
+#: inc/back-compat.php:39 inc/back-compat.php:50 inc/back-compat.php:64
+#, php-format
+msgid ""
+"TemplateMela requires at least WordPress version 3.6. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: inc/custom-header.php:132
+msgid "headerimage"
+msgstr ""
+
+#: inc/customizer.php:18 inc/customizer.php:19
+msgid "Background may only be visible on wide screens."
+msgstr ""
+
+#: inc/customizer.php:25
+msgid "Site Title Color"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid "Display Site Title &amp; Tagline"
+msgstr ""
+
+#: inc/customizer.php:30 inc/featured-content.php:358
+msgid "Featured Content"
+msgstr ""
+
+#: inc/customizer.php:31 inc/featured-content.php:359
+#, php-format
+msgid ""
+"Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the "
+"tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer.php:44
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Slider"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Template Mela"
+msgstr ""
+
+#: inc/customizer.php:89
+#, php-format
+msgid ""
+"The home page features your choice of up to 6 posts prominently displayed in "
+"a grid or slider, controlled by the <a href=\"%1$s\">featured</a> tag; you "
+"can change the tag and layout in <a href=\"%2$s\">Appearance &rarr; "
+"Customize</a>. If no posts match the tag, <a href=\"%3$s\">sticky posts</a> "
+"will be displayed instead."
+msgstr ""
+
+#: inc/customizer.php:90
+#, php-format
+msgid ""
+"Enhance your site design by using <a href=\"%s\">Featured Images</a> for "
+"posts you&rsquo;d like to stand out (also known as post thumbnails). This "
+"allows you to associate an image with your post without inserting it. "
+"Template Mela uses featured images for posts and pages&mdash;above the "
+"title&mdash;and in the Featured Content area on the home page."
+msgstr ""
+
+#: inc/customizer.php:91
+#, php-format
+msgid ""
+"For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s\">"
+"Template Mela documentation</a>."
+msgstr ""
+
+#: inc/featured-content.php:360
+msgctxt "featured content default tag slug"
+msgid "featured"
+msgstr ""
+
+#: inc/featured-content.php:379
+msgid "Tag Name"
+msgstr ""
+
+#: inc/featured-content.php:384
+msgid "Don&rsquo;t display tag on front end."
+msgstr ""
+
+#: inc/template-tags.php:41 templatemela/megnor-functions.php:1149
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: inc/template-tags.php:42 templatemela/megnor-functions.php:1150
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: inc/template-tags.php:47
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:73
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:77
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr ""
+
+#: inc/template-tags.php:79
+msgid "<i class=\"fa fa-chevron-left\"></i>%title"
+msgstr ""
+
+#: inc/template-tags.php:80
+msgid "%title<i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: inc/template-tags.php:98 templatemela/megnor-functions.php:757
+msgid "Sticky"
+msgstr ""
+
+#: inc/widgets.php:40
+msgid "TemplateMela Ephemera"
+msgstr ""
+
+#: inc/widgets.php:42
+msgid ""
+"Use this widget to list your recent Aside, Quote, Video, Audio, Image, "
+"Gallery, and Link posts"
+msgstr ""
+
+#: inc/widgets.php:132
+#, php-format
+msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
+msgid_plural ""
+"This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets.php:160
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/widgets.php:160 templatemela/megnor-functions.php:795
+msgid "1 Comment"
+msgstr ""
+
+#: inc/widgets.php:160 templatemela/megnor-functions.php:795
+msgid "% Comments"
+msgstr ""
+
+#: inc/widgets.php:168
+#, php-format
+msgid "More %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/widgets.php:208 templatemela/widgets/tm-brand-list.php:43
+#: templatemela/widgets/tm-follow-us.php:101
+#: templatemela/widgets/tm-footer-contactus.php:115
+#: templatemela/widgets/tm-static-links.php:139
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets.php:211
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets.php:213
+msgid "Post format to show:"
+msgstr ""
+
+#: page-templates/blog-list.php:32
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: page-templates/sitemap.php:18
+msgid "Pages"
+msgstr ""
+
+#: page-templates/sitemap.php:28
+msgid "Category Archives"
+msgstr ""
+
+#: page-templates/sitemap.php:31 templatemela/widgets/tm-follow-us.php:42
+msgid "RSS"
+msgstr ""
+
+#: page-templates/sitemap.php:37
+msgid "Monthly Archives"
+msgstr ""
+
+#: page-templates/sitemap.php:46
+msgid "Author Archives"
+msgstr ""
+
+#: page-templates/sitemap.php:56
+msgid "Blog Posts"
+msgstr ""
+
+#: page-templates/sitemap.php:62
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: templatemela/brand_taxonomies.php:79 templatemela/brand_taxonomies.php:159
+#: templatemela/brand_taxonomies.php:274
+msgid "Thumbnail"
+msgstr ""
+
+#: templatemela/brand_taxonomies.php:83 templatemela/brand_taxonomies.php:164
+msgid "Upload/Add image"
+msgstr ""
+
+#: templatemela/brand_taxonomies.php:84 templatemela/brand_taxonomies.php:165
+msgid "Remove image"
+msgstr ""
+
+#: templatemela/brand_taxonomies.php:102 templatemela/brand_taxonomies.php:183
+msgid "Choose an image"
+msgstr ""
+
+#: templatemela/brand_taxonomies.php:104 templatemela/brand_taxonomies.php:185
+msgid "Use image"
+msgstr ""
+
+#: templatemela/brand_taxonomies.php:231
+msgid ""
+"Product categories for your store can be managed here. To change the order "
+"of categories on the front-end you can drag and drop to sort them. To see "
+"more categories listed click the \"screen options\" link at the top of the "
+"page."
+msgstr ""
+
+#: templatemela/brand_taxonomies.php:237
+msgid ""
+"Attribute terms can be assigned to products and variations.<br/><br/><b>"
+"Note</b>: Deleting a term will remove it from all products and variations to "
+"which it has been assigned. Recreating a term will not automatically assign "
+"it back to products."
+msgstr ""
+
+#: templatemela/brand_taxonomies.php:251
+msgid "Image"
+msgstr ""
+
+#: templatemela/megnor-functions.php:262
+msgid "Read More"
+msgstr ""
+
+#: templatemela/megnor-functions.php:430
+msgid "Read More..."
+msgstr ""
+
+#: templatemela/megnor-functions.php:495
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr ""
+
+#: templatemela/megnor-functions.php:496
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: templatemela/megnor-functions.php:618
+msgid "Search for:"
+msgstr ""
+
+#: templatemela/megnor-functions.php:620
+msgid "Go"
+msgstr ""
+
+#: templatemela/megnor-functions.php:644
+msgid "Pingback:"
+msgstr ""
+
+#: templatemela/megnor-functions.php:646
+msgid "(Edit)"
+msgstr ""
+
+#: templatemela/megnor-functions.php:662
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: templatemela/megnor-functions.php:671
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templatemela/megnor-functions.php:763 templatemela/megnor-functions.php:772
+msgid ", "
+msgstr ""
+
+#: templatemela/megnor-functions.php:782
+msgid "by "
+msgstr ""
+
+#: templatemela/megnor-functions.php:784
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: templatemela/megnor-functions.php:795
+msgid "Leave a Comment"
+msgstr ""
+
+#: templatemela/megnor-functions.php:813
+#, php-format
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: templatemela/megnor-functions.php:819
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: templatemela/megnor-functions.php:1433
+msgid "SOLD OUT"
+msgstr ""
+
+#: templatemela/megnor-functions.php:1467
+msgid "Brand"
+msgstr ""
+
+#: templatemela/options.php:4
+msgid "Theme Settings"
+msgstr ""
+
+#: templatemela/options.php:4
+msgid "TM Theme Settings"
+msgstr ""
+
+#: templatemela/options.php:5 templatemela/admin/theme-hook.php:97
+msgid "Hook Manager"
+msgstr ""
+
+#: templatemela/options.php:5
+msgid "TM Hook Manager"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:393
+#: templatemela/tm-plugins-activation.php:920
+#: templatemela/tm-plugins-activation.php:2626
+#: templatemela/tm-plugins-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:394
+#: templatemela/tm-plugins-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:395
+#: templatemela/tm-plugins-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:1027
+#: templatemela/tm-plugins-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:1214
+#: templatemela/tm-plugins-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templatemela/tm-plugins-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3602
+#: templatemela/tm-plugins-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3602
+#: templatemela/tm-plugins-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: templatemela/tm-plugins-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:48
+msgid "Templatemela MetaBox"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:57
+msgid "Templatemela Shortcodes"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:66
+msgid "Templatemela CustomPost"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:75
+msgid "Revolution Slider"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:85
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:94
+msgid "Black Studio Tinymce Widget"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:99
+msgid "Contact Form 7"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:104
+msgid "Newsletter"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:109
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:114
+msgid "Woocommerce"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:119
+msgid "Woocommerce Accepted Payment Methods"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:124
+msgid "Woocommerce Grid List Toggle"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:129
+msgid "Woosidebars"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:134
+msgid "WordPress Seo"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:139
+msgid "Yith Woocommerce Quick View"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:144
+msgid "Yith Woocommerce Wishlist"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:149
+msgid "Yith-Woocommerce-Compare"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:154
+msgid "Yith Woocommerce Zoom Magnifier"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:159
+msgid "Widget Importer Exporter"
+msgstr ""
+
+#: templatemela/tm-plugins-install.php:164
+msgid "WordPress Importer"
+msgstr ""
+
+#: templatemela/widgets.php:27
+msgid "Header Area"
+msgstr ""
+
+#: templatemela/widgets.php:29
+msgid "The Cart on header"
+msgstr ""
+
+#: templatemela/widgets.php:36
+msgid "Header Search Widget Area"
+msgstr ""
+
+#: templatemela/widgets.php:46
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: templatemela/widgets.php:48
+msgid "The first footer widget area"
+msgstr ""
+
+#: templatemela/widgets.php:56
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: templatemela/widgets.php:58
+msgid "The second footer widget area"
+msgstr ""
+
+#: templatemela/widgets.php:66
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: templatemela/widgets.php:68
+msgid "The third footer widget area"
+msgstr ""
+
+#: templatemela/widgets.php:76
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: templatemela/widgets.php:78
+msgid "The forth footer widget area"
+msgstr ""
+
+#: templatemela/widgets.php:86
+msgid "Product Page Side-bar Area"
+msgstr ""
+
+#: templatemela/widgets.php:88
+msgid "The Single Product Side widget area"
+msgstr ""
+
+#: templatemela/admin/templatemela.php:6
+#: templatemela/admin/theme-setting.php:533
+msgid "Templatemela"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:552
+#: templatemela/admin/theme-setting.php:604
+msgid "General Settings"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:552
+msgid "general"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:553
+msgid "General"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:555
+msgid "topbar"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:556
+msgid "Topbar"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:558
+msgid "header"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:559
+msgid "Header"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:561
+msgid "content"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:562
+msgid "Content"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:564
+msgid "footer"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:565
+msgid "Footer"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:568
+msgid "blog"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:569
+msgid "Shop"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:845
+msgid "Topbar Settings"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:1043
+msgid "Shop Settings"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:1107
+#: templatemela/admin/theme-setting.php:1358
+msgid "header1"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:1110
+#: templatemela/admin/theme-setting.php:1361
+msgid "header2"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:1113
+#: templatemela/admin/theme-setting.php:1364
+msgid "header3"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:1116
+#: templatemela/admin/theme-setting.php:1367
+msgid "header4"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:1175
+msgid "Header Settings"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:1455
+msgid "Content Settings"
+msgstr ""
+
+#: templatemela/admin/theme-setting.php:1592
+msgid "Footer Settings"
+msgstr ""
+
+#: templatemela/controlpanel/tm_control_panel.php:390
+msgid "Header font"
+msgstr ""
+
+#: templatemela/controlpanel/tm_control_panel.php:432
+msgid "Link Color"
+msgstr ""
+
+#: templatemela/controlpanel/tm_control_panel.php:445
+msgid "Footer Link Color"
+msgstr ""
+
+#: templatemela/controlpanel/tm_control_panel.php:457
+msgid "See more settings in admin panel"
+msgstr ""
+
+#: templatemela/widgets/tm-follow-us.php:33
+msgid "Facebook"
+msgstr ""
+
+#: templatemela/widgets/tm-follow-us.php:36
+msgid "Twitter"
+msgstr ""
+
+#: templatemela/widgets/tm-follow-us.php:39
+msgid "Linkedin"
+msgstr ""
+
+#: templatemela/widgets/tm-follow-us.php:45
+msgid "Youtube"
+msgstr ""
+
+#: templatemela/widgets/tm-follow-us.php:48
+msgid "Pinterest"
+msgstr ""
+
+#: templatemela/widgets/tm-follow-us.php:51
+msgid "Google Plus"
+msgstr ""
+
+#: templatemela/widgets/tm-follow-us.php:54
+msgid "Skype"
+msgstr ""
+
+#: templatemela/widgets/tm-follow-us.php:57
+msgid "Instagram"
+msgstr ""
+
+#: templatemela/widgets/tm-footer-contactus.php:39
+msgid "footerlogo"
+msgstr ""
+
+#: templatemela/widgets/tm-footer-contactus.php:116
+msgid "Text:"
+msgstr ""
+
+#: templatemela/widgets/tm-footer-contactus.php:117
+msgid "Address:"
+msgstr ""
+
+#: templatemela/widgets/tm-footer-contactus.php:118
+msgid "E-mail:"
+msgstr ""
+
+#: templatemela/widgets/tm-footer-contactus.php:119
+msgid "Link URL:"
+msgstr ""
+
+#: templatemela/widgets/tm-footer-contactus.php:122
+msgid "Open Link In New Window"
+msgstr ""
+
+#: templatemela/widgets/tm-footer-contactus.php:124
+msgid "Phone No:"
+msgstr ""
+
+#: templatemela/widgets/tm-left-banner.php:29
+msgid "leftbanner"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:140
+msgid "Link Text1:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:141
+msgid "Link URL1:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:144
+msgid "Link Text2:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:145
+msgid "Link URL2:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:148
+msgid "Link Text3:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:149
+msgid "Link URL3:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:152
+msgid "Link Text4:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:153
+msgid "Link URL4:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:156
+msgid "Link Text5:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:157
+msgid "Link URL5:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:160
+msgid "Link Text6:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:161
+msgid "Link URL6:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:164
+msgid "Link Text7:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:165
+msgid "Link URL7:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:168
+msgid "Link Text8:"
+msgstr ""
+
+#: templatemela/widgets/tm-static-links.php:169
+msgid "Link URL8:"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:25
+msgid "Qty: "
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:26
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+msgid "Social Icon Widget Area"
+msgstr ""
+
+msgid "The Social Icons widget area"
+msgstr ""
+
+msgid "New message"
+msgstr ""
+
+msgid "The Footer Bottom widget area"
+msgstr ""
+
+msgid "Footer bottom Widget Area"
+msgstr ""
+
+msgid "The fourth footer widget area"
+msgstr ""
+
+msgid "Error, duplicate 1: Fourth Footer Widget Area"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "%s quantity"
+msgstr ""
+
+msgid "Free"
+msgstr ""
+
+msgid "Shipping"
+msgstr ""
+
+msgid "Contact"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "New message 2"
+msgstr ""

@@ -1,0 +1,45 @@
+
+
+.wrap {
+    margin: 4px 15px 0 0;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1.4em;
+}
+h3 {
+    cursor: move;
+    color: #464646;
+    border-bottom-color: #DFDFDF;
+    box-shadow: 0 1px 0 #FFFFFF;
+    text-shadow: 0 1px 0 #FFFFFF;
+    background: linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+    padding: 7px 0px;
+    -moz-user-select: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+label {
+    font-size:14px;
+}
+.acp_protect_list{
+    display: block
+}
+.acp_protect_list li{
+    float: left;
+    padding-right: 20px;
+    list-style: square;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500
+}
+
+form#form_submit {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}

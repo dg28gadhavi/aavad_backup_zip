@@ -1,0 +1,36 @@
+/**
+* 8.0 Media Queries
+* ----------------------------------------------------------------------------
+*/
+@import url("../firezy/responsive.css");
+
+@media only screen and (max-width: 979px) {
+.box-category, .box-category > .title2, .header-cart .cart-contents .cart-label, .account-label, .header-cart .shopping_cart .item-total, .box-category > .title2, .account-contents {
+    font-size: 12px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	.box-category, .box-category > .title2,
+	.header-cart .cart-contents .cart-label, .account-label,
+	.header-cart .shopping_cart .item-total, .box-category > .title2, .account-contents{
+    	font-size: 12px;
+	}
+	.box-category-heading {
+    	padding: 0px 30px 0px 0px;
+	}
+	.header-search .woocommerce-product-search .search-field, .header-search .search-form .search-field {
+    	width: 208px;
+	}
+	
+}
+@media only screen and (max-width: 479px) {
+	.sub-banner5 .static-wrapper, .sub-banner6 .static-wrapper {
+		top: 5%;
+	}
+	.box-category, .box-category > .title2 {
+    	font-size: 0;
+	}
+	.box-category-heading::after, .header-bottom-right::after {
+		display: none;
+	}
+}

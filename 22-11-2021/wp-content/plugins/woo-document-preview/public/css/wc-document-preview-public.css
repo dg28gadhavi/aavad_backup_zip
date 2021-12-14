@@ -1,0 +1,15 @@
+.wcdp-preview-btn-div .wcdp-preview-btn {
+	color: #fff;
+	box-shadow: none !important;
+}
+.summary.entry-summary .wcdp-preview-btn-div {
+	padding: 10px;
+	vertical-align: middle;
+	background-color: #a46497;
+	cursor: pointer;
+	text-align: center;
+	border: 2px solid #fff;
+}
+.entry-summary .wcdp-preview-btn-div a.wcdp-preview-btn {
+	text-decoration: unset !important;
+}
